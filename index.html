@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Learner - Online Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- NAVBAR(MENU) -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <i class="fas fa-graduation-cap"></i>
+            <h1>Mind Learner</h1>
+        </div>
+        <!-- Add hamburger menu -->
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-menu">
+            <a href="#home" class="active">Home</a>
+            <a href="#courses">Courses</a>
+            <a href="#features">Features</a>
+            <a href="#testimonials">Testimonials</a>
+            <!-- Move nav-buttons inside nav-menu for mobile -->
+            <div class="nav-buttons">
+                <button class="btn-login">Login</button>
+                <button class="btn-signup">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+    <!-- Add overlay for mobile menu -->
+    <div class="nav-overlay"></div>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Learn Without Limits</h1>
+            <p>Access world-class education from anywhere, anytime.</p>
+            <button class="btn-primary">Start Learning</button>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-card">
+                <h3>1000+</h3>
+                <p>Courses</p>
+            </div>
+            <div class="stat-card">
+                <h3>50K+</h3>
+                <p>Students</p>
+            </div>
+            <div class="stat-card">
+                <h3>200+</h3>
+                <p>Instructors</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- COURSES -->
+    <section id="courses" class="courses">
+        <h2>Popular Courses</h2>
+        <div class="course-grid">
+            <div class="course-card">
+                <div class="course-image">
+                    <img src="Image/programming.jpg" alt="Web Development">
+                    <span class="course-tag">Programming</span>
+                </div>
+                <div class="course-content">
+                    <h3>Web Development Bootcamp</h3>
+                    <p>Learn HTML, CSS, JavaScript, and more!</p>
+                    <div class="course-meta">
+                        <span><i class="fas fa-clock"></i> 12 weeks</span>
+                        <span><i class="fas fa-star"></i> 4.8</span>
+                    </div>
+                    <button class="btn-secondary">Enroll Now</button>
+                </div>
+            </div>
+            <div class="course-card">
+                <div class="course-image">
+                    <img src="Image/DigitalMarketing.jpg" alt="Digital Marketing">
+                    <span class="course-tag">Marketing</span>
+                </div>
+                <div class="course-content">
+                    <h3>Digital Marketing Mastery</h3>
+                    <p>Master social media, SEO, and online advertising</p>
+                    <div class="course-meta">
+                        <span><i class="fas fa-clock"></i> 8 weeks</span>
+                        <span><i class="fas fa-star"></i> 4.7</span>
+                    </div>
+                    <button class="btn-secondary">Enroll Now</button>
+                </div>
+            </div>
+            <div class="course-card">
+                <div class="course-image">
+                    <img src="Image/datascience.jpg" alt="Data Science">
+                    <span class="course-tag">Data Science</span>
+                </div>
+                <div class="course-content">
+                    <h3>Data Science Fundamentals</h3>
+                    <p>Learn Python, Statistics, and Machine Learning</p>
+                    <div class="course-meta">
+                        <span><i class="fas fa-clock"></i> 16 weeks</span>
+                        <span><i class="fas fa-star"></i> 4.9</span>
+                    </div>
+                    <button class="btn-secondary">Enroll Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COURSES FEATURES -->
+    <section id="features" class="features">
+        <h2>Why Choose Us</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Learn at Your Pace</h3>
+                <p>Access course content anytime and learn at your own speed</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-certificate"></i>
+                <h3>Certified Courses</h3>
+                <p>Earn recognized certificates upon course completion</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-users"></i>
+                <h3>Expert Instructors</h3>
+                <p>Learn from industry professionals and experts</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-comments"></i>
+                <h3>Community Support</h3>
+                <p>Connect with fellow learners and get help when needed</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Students Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial-card active">
+                <img src="Image/student1.jpg" alt="Student1">
+                <p>"The courses are well-structured and the instructors are amazing. I learned so much in just a few
+                    weeks!"</p>
+                <h4>Sarah Johnson</h4>
+                <span>Web Development Graduate</span>
+            </div>
+            <div class="testimonial-card">
+                <img src="Image/student2.jpg" alt="Student2">
+                <p>"The platform is user-friendly and the content is top-notch. Highly recommended!"</p>
+                <h4>Michael Chen</h4>
+                <span>Digital Marketing Student</span>
+            </div>
+            <div class="testimonial-card">
+                <img src="Image/student3.jpg" alt="Student3">
+                <p>"The practical assignments and projects helped me build a strong portfolio. Thank you Mind Learner!"
+                </p>
+                <h4>Emily Davis</h4>
+                <span>Data Science Graduate</span>
+            </div>
+        </div>
+        <div class="testimonial-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Mind Learner</h3>
+                <p>Empowering learners worldwide with quality education.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#courses">Courses</a>
+                <a href="#features">Features</a>
+                <a href="#testimonials">Testimonials</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@Mind Learner.com</p>
+                <p>Phone: +1 234 567 890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Mind Learner. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- LOGIN PAGE -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit" class="btn-primary">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- SIGN PAGE -->
+    <div class="modal" id="signupModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Sign Up</h2>
+            <form id="signupForm">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+                <button type="submit" class="btn-primary">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
