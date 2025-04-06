@@ -16,12 +16,16 @@
             <i class="fas fa-graduation-cap"></i>
             <h1>Mind Learner</h1>
         </div>
+        <div id="Searchbar">
+            <input type="text" placeholder="Search courses here">
+        </div>
         <!-- Add hamburger menu -->
         <div class="hamburger">
             <span></span>
             <span></span>
             <span></span>
         </div>
+
         <div class="nav-menu">
             <a href="#home" class="active">Home</a>
             <a href="#courses">Courses</a>
@@ -111,6 +115,202 @@
         </div>
     </section>
 
+    <!-- Video Section -->
+    <section id="video-section">
+        <h1>Web Development Course</h1>
+        <p class="subtitle">Learn HTML, CSS, and JavaScript through guided videos and practice</p>
+
+        <!-- Course Videos Section -->
+        <div class="container">
+            <div class="section-title">
+                <div class="line"></div>
+                <h2>Course Demo Videos</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="video-container">
+                <!-- Video 1 -->
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <img src="Image/video1.png" alt="HTML Fundamentals">
+                        <div class="play-button"></div>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">HTML Fundamentals</div>
+                        <div class="video-duration">Duration: 15:22</div>
+                    </div>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <img src="Image/video2.png" alt="CSS Styling Techniques">
+                        <div class="play-button"></div>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">CSS Styling Techniques</div>
+                        <div class="video-duration">Duration: 18:45</div>
+                    </div>
+                </div>
+                <!-- Video 3 -->
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <img src="Image/video3.jpg" alt="JavaScript Basics">
+                        <div class="play-button"></div>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">JavaScript Basics</div>
+                        <div class="video-duration">Duration: 15:22</div>
+                    </div>
+                </div>
+
+                <!-- Video 4 -->
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <img src="Image/video2.png" alt="CSS Tricks">
+                        <div class="play-button"></div>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">CSS Tricks</div>
+                        <div class="video-duration">Duration: 18:45</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <div class="container">
+        <div class="section-title">
+            <div class="line"></div>
+            <h2>Knowledge Check Quiz</h2>
+            <div class="line"></div>
+        </div>
+
+        <form id="quiz-form">
+            <div class="question" id="q1">
+                <h3>1. Which of the following is not a valid CSS selector?</h3>
+                <div class="options">
+                    <div class="option">
+                        <input type="radio" id="q1a" name="q1" value="a">
+                        <label for="q1a">a) .class-name</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q1b" name="q1" value="b">
+                        <label for="q1b">b) #id-name</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q1c" name="q1" value="c">
+                        <label for="q1c">c) *element*</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q1d" name="q1" value="d">
+                        <label for="q1d">d) [attribute=value]</label>
+                    </div>
+                </div>
+                <div class="feedback" id="feedback1"></div>
+            </div>
+
+            <div class="question" id="q2">
+                <h3>2. Which JavaScript method is used to add an element at the end of an array?</h3>
+                <div class="options">
+                    <div class="option">
+                        <input type="radio" id="q2a" name="q2" value="a">
+                        <label for="q2a">a) push()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q2b" name="q2" value="b">
+                        <label for="q2b">b) unshift()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q2c" name="q2" value="c">
+                        <label for="q2c">c) append()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q2d" name="q2" value="d">
+                        <label for="q2d">d) concat()</label>
+                    </div>
+                </div>
+                <div class="feedback" id="feedback2"></div>
+            </div>
+
+            <div class="question" id="q3">
+                <h3>3. What is the correct HTML element for the largest heading?</h3>
+                <div class="options">
+                    <div class="option">
+                        <input type="radio" id="q3a" name="q3" value="a">
+                        <label for="q3a">a) &lt;heading&gt;</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q3b" name="q3" value="b">
+                        <label for="q3b">b) &lt;h6&gt;</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q3c" name="q3" value="c">
+                        <label for="q3c">c) &lt;h1&gt;</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q3d" name="q3" value="d">
+                        <label for="q3d">d) &lt;head&gt;</label>
+                    </div>
+                </div>
+                <div class="feedback" id="feedback3"></div>
+            </div>
+
+            <div class="question" id="q4">
+                <h3>4. Which property is used to change the background color in CSS?</h3>
+                <div class="options">
+                    <div class="option">
+                        <input type="radio" id="q4a" name="q4" value="a">
+                        <label for="q4a">a) color</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q4b" name="q4" value="b">
+                        <label for="q4b">b) bgcolor</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q4c" name="q4" value="c">
+                        <label for="q4c">c) background-color</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q4d" name="q4" value="d">
+                        <label for="q4d">d) backgroundcolor</label>
+                    </div>
+                </div>
+                <div class="feedback" id="feedback4"></div>
+            </div>
+
+            <div class="question" id="q5">
+                <h3>5. Which of the following is used to store client-side data in JavaScript?</h3>
+                <div class="options">
+                    <div class="option">
+                        <input type="radio" id="q5a" name="q5" value="a">
+                        <label for="q5a">a) cookies</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q5b" name="q5" value="b">
+                        <label for="q5b">b) localStorage</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q5c" name="q5" value="c">
+                        <label for="q5c">c) sessionStorage</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q5d" name="q5" value="d">
+                        <label for="q5d">d) All of the above</label>
+                    </div>
+                </div>
+                <div class="feedback" id="feedback5"></div>
+            </div>
+
+            <div class="buttons-container">
+                <button type="submit" id="submit-btn">Submit Quiz</button>
+                <button type="button" id="try-again-btn">Try Again</button>
+            </div>
+        </form>
+
+        <div id="result"></div>
+    </div>
     <!-- COURSES FEATURES -->
     <section id="features" class="features">
         <h2>Why Choose Us</h2>
