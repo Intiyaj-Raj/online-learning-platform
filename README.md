@@ -136,7 +136,7 @@ I've added a responsive mobile navigation menu with the following features:
 
 The mobile navigation is now fully functional and provides a smooth user experience on smaller devices. The menu can be toggled using the hamburger icon, and clicking menu items or the overlay will close the menu.
 
-# Website view image link
+# Output
 
 ![Image](https://github.com/user-attachments/assets/96031f9c-a2ca-422b-ab97-9459fce24d38)
 ![Image](https://github.com/user-attachments/assets/9f65df52-4778-4c57-8d22-a018f5a95dcb)
